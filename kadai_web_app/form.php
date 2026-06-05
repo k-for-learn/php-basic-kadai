@@ -19,7 +19,7 @@
             <tr>
                 <td>年齢</td>
                 <td>
-                    <input type="text" name="age" value="<?php echo isset($_COOKIE['employee_age']) ? $_COOKIE['employee_age'] : ''; ?>">
+                    <input type="text" name="employee_age" value="<?php echo isset($_COOKIE['employee_age']) ? $_COOKIE['employee_age'] : ''; ?>">
                 </td>
             </tr>
             <tr>
